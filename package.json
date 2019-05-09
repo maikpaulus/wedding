@@ -1,0 +1,51 @@
+{
+  "name": "wedding-page",
+  "version": "1.0.0",
+  "description": "our page for wedding",
+  "author": {
+    "email": "mail@maikpaulus.com",
+    "name": "Maik Paulus",
+    "url": "http://www.maikpaulus.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start:development": "node server/server.js",
+    "start:deployment": "./deployment/deployment.sh",
+    "build": "webpack"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^1.31.0",
+    "dot-prop": "^4.1.0",
+    "express": "^4.16.4",
+    "express-validator": "^3.1.2",
+    "jquery": "^3.1.1",
+    "moment": "^2.24.0",
+    "mysql": "^2.16.0",
+    "style-loader": "^0.13.1",
+    "vue": "^2.5.22",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-material": "^0.7.1",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^2.1.3",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.13.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^15.6.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^2.1.5"
+  }
+}

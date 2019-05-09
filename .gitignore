@@ -1,0 +1,16 @@
+# Node.js module folder
+node_modules
+webpack.config.js
+.env
+
+# Config files
+config/*.json
+
+# distribution vue files
+public/dist/*
+public/assets/js/*
+
+# deployment
+deployment/deployment.sh
+
+# app.bundle.js
